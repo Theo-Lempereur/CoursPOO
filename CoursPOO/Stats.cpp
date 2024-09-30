@@ -2,14 +2,14 @@
 
 
 
-Stats::Stats(std::string name, int defaultValue)
+Stats::Stats(std::string name, int Value)
 {
 	m_name = name;
-	m_defaultValue = defaultValue;
+	m_Value = Value;
 	m_type = TypeStats::Agility;
 }
 
 void Stats::printStats() const
 {
-	std::cout << m_name << ": " << m_defaultValue << std::endl;
+	std::cout << m_name << ": " << m_Value << std::endl;
 }

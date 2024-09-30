@@ -29,7 +29,7 @@ struct Stats
 	/// <summary>
 	/// the default value of the stat
 	/// </summary>
-	int m_defaultValue;
+	int m_Value;
 
 	/// <summary>
 	/// the type of the stat

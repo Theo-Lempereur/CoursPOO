@@ -59,5 +59,13 @@ void Players::printPlayerInfo() const{
 	}
 }
 
+int Players::getIntStatValue(std::string statName) const {
+	for (int i = 0; i < m_stats.size(); i++) {
+		if (m_stats[i].m_name == statName) {
+			return m_stats[i].m_Value;
+		}
+	}
+}
+
 
 
